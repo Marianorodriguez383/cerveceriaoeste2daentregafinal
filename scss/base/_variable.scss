@@ -1,4 +1,4 @@
-//**variables**//
+//**variables header**//
 $color-titulos: white; 
 $color-bg-titulos: black;
 $font-titulos: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
@@ -16,5 +16,21 @@ $font-size-titulos: 3em;
 @mixin bt-vermas {
     font-size: 3em ;
     background-color: grey;   
+}
+
+//**especialidades style **//
+
+@mixin titulos-section {
+    
+    background-color: rgb(54, 54, 54);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1;
+    font-weight: 100;
+    text-align: center;
+    font-size: 4em;
+    color: white ;
+    padding: 10px;
+    background-image: linear-gradient(to top, black , grey);
+    margin-bottom: 8%;
 }
 

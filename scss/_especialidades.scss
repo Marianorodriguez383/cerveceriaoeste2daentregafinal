@@ -1,0 +1,15 @@
+@import "base/variable";
+
+main {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: beige;
+}
+
+.conth3 {
+    @include titulos-section
+}
+
+h3 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+

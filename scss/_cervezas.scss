@@ -1,0 +1,30 @@
+@import "base/variable";
+
+.cont-h3 {
+    @include titulos-section
+
+}
+
+.titulo-cerveza {
+    margin-top: 10%;
+}
+
+.parrafo-cerveza {
+    .div-parr-cer {
+        .parrafo-cerv {
+            margin-bottom: 5%;
+        }
+    }
+}
+
+ul {
+    li {
+        background-image: linear-gradient(to left, black , grey);
+        
+    }
+}
+
+.img-cerveza {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}

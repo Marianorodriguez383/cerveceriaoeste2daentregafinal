@@ -23,3 +23,60 @@ h1 {
 .boton-vermas {
   font-size: 3em;
   background-color: grey; }
+
+main {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: beige; }
+
+.conth3 {
+  background-color: #363636;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  line-height: 1;
+  font-weight: 100;
+  text-align: center;
+  font-size: 4em;
+  color: white;
+  padding: 10px;
+  background-image: linear-gradient(to top, black, grey);
+  margin-bottom: 8%; }
+
+h3 {
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+.cont-h3 {
+  background-color: #363636;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  line-height: 1;
+  font-weight: 100;
+  text-align: center;
+  font-size: 4em;
+  color: white;
+  padding: 10px;
+  background-image: linear-gradient(to top, black, grey);
+  margin-bottom: 8%; }
+
+.titulo-cerveza {
+  margin-top: 10%; }
+
+.parrafo-cerveza .div-parr-cer .parrafo-cerv {
+  margin-bottom: 5%; }
+
+ul li {
+  background-image: linear-gradient(to left, black, grey); }
+
+.img-cerveza {
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+.titulo-postre {
+  background-color: #363636;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  line-height: 1;
+  font-weight: 100;
+  text-align: center;
+  font-size: 4em;
+  color: white;
+  padding: 10px;
+  background-image: linear-gradient(to top, black, grey);
+  margin-bottom: 8%; }
