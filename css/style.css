@@ -1,0 +1,25 @@
+header {
+  background-image: url(/images/cuatrovasos.avif);
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  padding-bottom: 30%; }
+
+h1 {
+  color: white;
+  margin-top: 15%;
+  background-color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 3em;
+  padding-top: 10%;
+  padding-bottom: 1em; }
+
+.header .nav-principal .conteiner-titulo-nav .titulo-nav {
+  font-size: 2em;
+  color: white; }
+
+.boton-vermas {
+  font-size: 3em;
+  background-color: grey; }

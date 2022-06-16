@@ -1,0 +1,31 @@
+@import "base/variable";
+
+header {
+    background-image: url(/images/cuatrovasos.avif);
+    @include bg-header-principal
+}
+h1 {
+    color: $color-titulos; 
+    margin-top: 15%;
+    background-color: $color-bg-titulos;
+    font-family: $font-titulos;
+    font-size: $font-size-titulos;
+    padding-top: 10%;
+    padding-bottom: 1em;   
+}
+.header {
+    .nav-principal {
+        .conteiner-titulo-nav {
+            .titulo-nav {
+                font-size: 2em;
+                color: $color-titulos ;
+            }
+            
+        }
+    }
+}
+.boton-vermas {
+    @include bt-vermas;
+    
+}
+

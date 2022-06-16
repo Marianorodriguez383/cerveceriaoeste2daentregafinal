@@ -1,0 +1,20 @@
+//**variables**//
+$color-titulos: white; 
+$color-bg-titulos: black;
+$font-titulos: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+$font-size-titulos: 3em;
+
+
+@mixin bg-header-principal {
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    padding-bottom: 30%;    
+}
+@mixin bt-vermas {
+    font-size: 3em ;
+    background-color: grey;   
+}
+

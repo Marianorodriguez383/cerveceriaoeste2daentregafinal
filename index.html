@@ -8,35 +8,85 @@
     <title>Cerveceria del Oeste</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-
     <!--comienzo header-->
-    <header class="header">
-        <div class="headediv ">
-            <h1 id="oeste">Cerveceria del Oeste</h1>
+    <header class="header text-center">
+        <nav class="navbar bg-secondary fixed-top nav-principal">
+            <div class="container-fluid conteiner-titulo-nav">
+                <a class="navbar-brand titulo-nav" href="#">
+                    Cerveceria del Oeste
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">CDO</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#oeste">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Especialidades de la casa">Especialidades de la casa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Cervezas">Cervezas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Postres">Postres</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Contacto">Contacto</a>
+                            </li>
 
-        </div>
-        <nav class="nav d-flex justify-content-center">
-            <ul class="menu-nav">
-                <li class="li-home"><a href="#oeste" class="home-a">Home</a></li>
-                <li class="li-esp"><a href="#Especialidades de la casa" class="esp-a">Especialidades de la casa</a></li>
-                <li class="li-cerv"><a href="#Cervezas" class="cerv-a">Cervezas</a></li>
-                <li class="li-postr"><a href="#Postres" class="post-a">Postres</a></li>
-                <li class="li-contac"><a href="#Contacto" class="contac-a">Contacto</a></li>
-            </ul>
-        </nav>
-        <!--Inicio section header-->
-        <section>
-            <div>
-                <nav>
-                    <h2>¡En el oeste está el agite! </h2>
-                    <a href="#Especialidades de la casa" class="conteinervermas">Ver Más</a>
-                </nav>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
             </div>
-        </section>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+              <div class="col"></div>
+              <div class="col-6">
+                <h1 id="oeste">Cerveceria del Oeste</h1>
+              </div>
+              <div class="col"></div>
+            </div>
+            <div class="row">
+              <div class="col"></div>
+              <div class="col-5">
+                <section class="sub-t">
+                    <h2>¡En el oeste está el agite! </h2>
+                </section>
+              </div>
+              <div class="col"></div>
+            </div>
+          </div>
+        <!--Inicio section header-->
+        <div class="container d-flex justify-content-center">
+            <div class="row">
+              <div class="col-2"></div>
+              <div class="col-8">
+                <div class="conteiner-fluid bttn-vms">
+                    <button type="button" class="btn btn-outline-dark boton-vermas d-flex justify-content-center"><a
+                            href="#Especialidades de la casa" class="conteinervermas">Ver Más</a></button>
+                </div>
+              </div>
+              <div class="col-2"></div>
+            </div>
         <!--fin section header-->
     </header>
     <!--Fin header-->
@@ -226,9 +276,9 @@
                         </div>
                     </div>
                 </div>
-            </div>   
+            </div>
         </section>
-    <!--fin section-->
+        <!--fin section-->
     </main>
     <!--fin main-->
     <!--comienzo footer-->
