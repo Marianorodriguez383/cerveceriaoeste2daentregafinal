@@ -1,0 +1,13 @@
+Para mejorar el Seo de mi page hice los siguientes agregardos
+
+*un h1 principal (index.html linea 74)*
+
+*Uso de etiquetas semanticas *
+
+*meta tags en head*
+
+*modificacion del title* 
+
+*uso de fotos en formato .avif*
+
+*open graph* 

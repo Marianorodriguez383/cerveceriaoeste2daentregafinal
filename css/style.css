@@ -60,7 +60,8 @@ h3 {
   margin-top: 10%; }
 
 .parrafo-cerveza .div-parr-cer .parrafo-cerv {
-  margin-bottom: 5%; }
+  margin-bottom: 5%;
+  text-decoration: underline; }
 
 ul li {
   background-image: linear-gradient(to left, black, grey); }
@@ -93,3 +94,7 @@ ul li {
   background-image: linear-gradient(to top, black, grey);
   margin-bottom: 8%;
   margin-top: 5%; }
+
+.divcontacto, .classfooter {
+  text-decoration: underline;
+  background-color: #444242; }
