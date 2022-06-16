@@ -26,7 +26,7 @@ h1 {
 
 main {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: beige; }
+  color: black; }
 
 .conth3 {
   background-color: #363636;
@@ -80,3 +80,16 @@ ul li {
   padding: 10px;
   background-image: linear-gradient(to top, black, grey);
   margin-bottom: 8%; }
+
+.titulo-contacto {
+  background-color: #363636;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  line-height: 1;
+  font-weight: 100;
+  text-align: center;
+  font-size: 4em;
+  color: white;
+  padding: 10px;
+  background-image: linear-gradient(to top, black, grey);
+  margin-bottom: 8%;
+  margin-top: 5%; }

@@ -1,0 +1,6 @@
+@import "base/variable";
+
+.titulo-contacto {
+    @include titulos-section;
+    margin-top: 5%;
+}
