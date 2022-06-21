@@ -1,7 +1,7 @@
 @import "base/variable";
 
 main {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: black;
+    font-family: $font-titulos
 }
 
 .conth3 {
@@ -12,4 +12,5 @@ h3 {
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
 

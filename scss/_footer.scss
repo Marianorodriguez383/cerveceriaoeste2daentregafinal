@@ -2,4 +2,11 @@
 
 .classfooter {
     @extend .divcontacto;
+    padding-bottom: 10%;
+    
 }
+
+.disclaimer {
+    display: none !important; 
+}
+

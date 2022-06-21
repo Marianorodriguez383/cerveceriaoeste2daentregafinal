@@ -5,14 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Barlow+Condensed:ital,wght@1,300&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    
     <!--meta description-->
     <meta name="description" content="Somos una cerveceria en auge de zona oeste - tienda ">
     <!--meta kw-->
     <meta name="keywords" content="cerveceria, cerveza, hamburguesa, ecommerce tienda online;">
 
     <!--protocolo open ghaph-->
-    <meta property="og:title" content="Cerveceria del Oeste"/>
+    <meta property="og:title" content="Cerveceria del Oeste" />
 
 
     <title>Cerveceria del Oeste</title>
@@ -24,7 +27,7 @@
 <body>
     <!--comienzo header-->
     <header class="header text-center">
-        <nav class="navbar bg-secondary fixed-top nav-principal">
+        <nav class="navbar fixed-top nav-principal">
             <div class="container-fluid conteiner-titulo-nav">
                 <a class="navbar-brand titulo-nav" href="#">
                     Cerveceria del Oeste
@@ -33,13 +36,13 @@
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                <div class="offcanvas offcanvas-end menu-scroll" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">CDO</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <div class="offcanvas-body">
+                    <div class="offcanvas-body selec-section">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#oeste">Home</a>
@@ -56,17 +59,11 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#Contacto">Contacto</a>
                             </li>
-
                         </ul>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
                     </div>
                 </div>
             </div>
         </nav>
-
         <div class="container">
             <div class="row">
                 <div class="col"></div>
@@ -144,8 +141,7 @@
                         <div style="min-height: 120px;">
                             <div class="collapse collapse-horizontal" id="collapseWidthExample">
                                 <div class="card card-body" style="width: 300px;">
-                                    This is some placeholder content for a horizontal collapse. It's hidden by default
-                                    and shown when triggered.
+                                    ¡ Vamos a llegar a toda zona oeste !
                                 </div>
                             </div>
                         </div>
@@ -159,8 +155,10 @@
                         <div style="min-height: 120px;">
                             <div class="collapse collapse-horizontal" id="collapseWidthExample">
                                 <div class="card card-body" style="width: 300px;">
-                                    This is some placeholder content for a horizontal collapse. It's hidden by default
-                                    and shown when triggered.
+                                    Comenzamos tras la pandemia buscando una nueva reconstruccion de nuestro local
+                                    familiar, poniendo todo nuestro tiempo a disposicion de este proyecto, queremos que
+                                    nuestros clientes disfruten tanto como nosotros del agrado que buscamos dar por
+                                    medio de nuestros platos y nuestra atención.
                                 </div>
                             </div>
                         </div>
@@ -171,7 +169,8 @@
                     <div class="col-5 fs-4">
 
                         <div class="card bg-dark text-white marg">
-                            <img src="images/fritas3.avif" class="card-img" alt="imagen papas fritas">
+                            <img src="images/fritas3.avif" class="card-img" alt="imagen papas fritas" width=""
+                                height="">
                             <div class="card-img-overlay">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"> ¡Ponemos todo de lo nuestro, para que tu paso por el oeste
@@ -220,9 +219,9 @@
                         </ul>
                     </div>
                 </div>
-                <div class="g-col-6 img-cerveza">
+                <div class="g-col-2 img-cerveza">
                     <div class="div-copa text-center ">
-                        <img src="./images/copacerveza.avif" alt="Copa de cerveza" class="foto-copa">
+                        <img src="./images/copacerveza.avif" alt="Copa de cerveza" class="foto-copa" width="" height="">
                     </div>
                 </div>
             </div>
@@ -252,13 +251,15 @@
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <img src="images/cuatrovasos.avif" class="d-block w-100"
-                                            alt="cuatro vasos de cerveza">
+                                            alt="cuatro vasos de cerveza" width="" height="">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="images/guinnesss.jpg" class="d-block w-100" alt="baner marca guinness">
+                                        <img src="images/guinnesss.jpg" class="d-block w-100" alt="baner marca guinness"
+                                            width="" height="">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="images/canillas.jpg" class="d-block w-100" alt="canillas de cerveza">
+                                        <img src="images/canillas.jpg" class="d-block w-100" alt="canillas de cerveza"
+                                            width="" height="">
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button"
@@ -293,11 +294,13 @@
                 <p class="parrafo-contac">Si estas en Zona San Justo - Lomas del mirador - Ramos Mejia, y queres
                     probar nuestro menu hace tu pedido. ¡Pero estas avisado, va a ser la primera vez de muchas !</p>
                 <div class="fotos-contac">
-                    <img src="./images/pizza1.avif" alt="imgen de pizza sin cortar">
-                    <img src="./images/pizza2.avif" alt="Imagen de pizza cortada">
-                    <img src="./images/degustacionsection4.avif" alt="degustacion de vasos de cerveza ">
-                    <img src="./images/fritas3.avif" alt="papas fritas">
-                    <img src="./images/vasobirra.avif" alt="vasos con cerveza">
+                    <img src="./images/pizza1.avif" alt="imgen de pizza sin cortar" class="foto-pizza" width=""
+                        height="">
+                    <img src="./images/pizza2.avif" alt="Imagen de pizza cortada" class="foto-pizza" width="" height="">
+                    <img src="./images/degustacionsection4.avif" alt="degustacion de vasos de cerveza "
+                        class="foto-pizza" width="" height="">
+                    <img src="./images/fritas3.avif" alt="papas fritas" class="foto-pizza" width="" height="">
+                    <img src="./images/vasobirra.avif" alt="vasos con cerveza" class="foto-pizza" width="" height="">
                 </div>
                 <div class="div-redes">
                     <h4>¡Seguinos en nuestras redes sociales para novedades!</h4>

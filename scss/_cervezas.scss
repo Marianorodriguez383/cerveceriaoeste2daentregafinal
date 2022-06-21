@@ -20,7 +20,9 @@
 
 ul {
     li {
-        background-image: linear-gradient(to left, black , grey);
+        background-color: grey;
+        /*background-image: linear-gradient(to left, black , grey);*/
+        margin-bottom: 2%;
         
     }
 }
@@ -28,4 +30,8 @@ ul {
 .img-cerveza {
     padding-top: 5%;
     padding-bottom: 5%;
+}
+
+.foto-copa {
+    max-width: 100%;
 }
