@@ -31,7 +31,7 @@ h1 {
   background-color: grey; }
 
 .logo-cdo {
-  width: 90px !important; }
+  max-width: 90px !important; }
 
 @media screen and (max-width: 576px) {
   h1 {
