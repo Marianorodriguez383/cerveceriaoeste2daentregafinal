@@ -16,8 +16,6 @@ h1 {
 }
 
 
-
-
 .header {
     .nav-principal {
         .conteiner-titulo-nav {
@@ -45,12 +43,8 @@ h1 {
 }
 
 .logo-cdo {
-    width: 90px;
-
-
+    width: 90px !important;
 }
-
-
 
 
 
@@ -61,7 +55,7 @@ h1 {
     }
 
     .logo-cdo {
-        max-width: 40px;
+        max-width: 40px !important ; 
     }
 
     .boton-vermas {

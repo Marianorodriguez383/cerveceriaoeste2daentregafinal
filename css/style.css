@@ -31,14 +31,14 @@ h1 {
   background-color: grey; }
 
 .logo-cdo {
-  width: 90px; }
+  width: 90px !important; }
 
 @media screen and (max-width: 576px) {
   h1 {
     font-size: 1em;
     margin-top: 85%; }
   .logo-cdo {
-    max-width: 40px; }
+    max-width: 40px !important; }
   .boton-vermas {
     font-size: 1em; }
   .sub-t {
