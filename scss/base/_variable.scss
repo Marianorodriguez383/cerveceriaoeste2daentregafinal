@@ -2,23 +2,28 @@
 $color-titulos: white; 
 $color-bg-titulos: black;
 $font-titulos: 'Arvo', serif;
-
-
-/*Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/ 
-
 $font-size-titulos: 3em;
-
+$font-size-small: 1em;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
 
 @mixin bg-header-principal {
-    max-width: 100%;
+    max-width: 95%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 20px;
     padding-bottom: 30%;    
+    
 }
 @mixin bt-vermas {
-    font-size: 3em ;
+    font-size: 2em ;
     background-color: grey;   
 }
 
