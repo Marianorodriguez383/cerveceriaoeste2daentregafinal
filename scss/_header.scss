@@ -1,7 +1,7 @@
 @import "base/variable";
 
 header {
-    background-image: url("./images/cuatrovasos.avif");
+    background-image: url(../images/cuatrovasos.avif);
     @include bg-header-principal;
 }
 
