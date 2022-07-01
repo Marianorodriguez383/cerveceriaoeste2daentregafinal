@@ -1,5 +1,5 @@
 header {
-  background-image: url(/images/cuatrovasos.avif);
+  background-image: url("/images/cuatrovasos.avif");
   max-width: 95%;
   background-repeat: no-repeat;
   background-position: center;
@@ -99,18 +99,6 @@ ul li {
 .foto-copa {
   max-width: 100%; }
 
-.titulo-postre {
-  background-color: #363636;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  line-height: 1;
-  font-weight: 100;
-  text-align: center;
-  font-size: 4em;
-  color: white;
-  padding: 10px;
-  background-image: linear-gradient(to top, black, grey);
-  margin-bottom: 8%; }
-
 .titulo-contacto {
   background-color: #363636;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -135,6 +123,18 @@ ul li {
 
 .div-redes {
   padding-bottom: 10%; }
+
+.titulo-postre {
+  background-color: #363636;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  line-height: 1;
+  font-weight: 100;
+  text-align: center;
+  font-size: 4em;
+  color: white;
+  padding: 10px;
+  background-image: linear-gradient(to top, black, grey);
+  margin-bottom: 8%; }
 
 .classfooter {
   padding-bottom: 10%; }
