@@ -1,6 +1,6 @@
 header {
-  background-image: url(../../images/portada.webp);
-  max-width: 95%;
+  background-image: url(../../images/cuatrovasos.avif);
+  max-width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -53,30 +53,32 @@ main {
   font-family: "Arvo", serif; }
 
 .conth3 {
-  background-color: #363636;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  line-height: 1;
-  font-weight: 100;
   text-align: center;
-  font-size: 4em;
-  color: white;
-  padding: 10px;
   background-image: linear-gradient(to top, black, grey);
   margin-bottom: 8%; }
 
 h3 {
   padding-top: 10%;
-  padding-bottom: 5%; }
+  padding-bottom: 5%;
+  color: beige;
+  font-weight: 900;
+  font-size: 60px; }
+
+@media screen and (max-width: 576px) {
+  .iconos-pagos {
+    display: flex;
+    flex-direction: column; }
+  .iconomp {
+    max-width: 100px; }
+  .iconotrasnf {
+    max-width: 100px;
+    margin-top: 20%;
+    margin-bottom: 20%; }
+  h3 {
+    font-size: 20px; } }
 
 .cont-h3 {
-  background-color: #363636;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  line-height: 1;
-  font-weight: 100;
   text-align: center;
-  font-size: 4em;
-  color: white;
-  padding: 10px;
   background-image: linear-gradient(to top, black, grey);
   margin-bottom: 8%; }
 
@@ -100,14 +102,7 @@ ul li {
   max-width: 100%; }
 
 .titulo-contacto {
-  background-color: #363636;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  line-height: 1;
-  font-weight: 100;
   text-align: center;
-  font-size: 4em;
-  color: white;
-  padding: 10px;
   background-image: linear-gradient(to top, black, grey);
   margin-bottom: 8%;
   margin-top: 5%; }
@@ -125,14 +120,7 @@ ul li {
   padding-bottom: 10%; }
 
 .titulo-postre {
-  background-color: #363636;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  line-height: 1;
-  font-weight: 100;
   text-align: center;
-  font-size: 4em;
-  color: white;
-  padding: 10px;
   background-image: linear-gradient(to top, black, grey);
   margin-bottom: 8%; }
 

@@ -1,7 +1,8 @@
 @import "base/variable";
 
 main {
-    font-family: $font-titulos
+    font-family: $font-titulos;
+    
 }
 
 .conth3 {
@@ -12,7 +13,35 @@ main {
 h3 {
     padding-top: 10%;
     padding-bottom: 5%;
+    color: beige;
+    font-weight: 900;
+    font-size: 60px;
+    
 }
+
+@media screen and (max-width: 576px) {
+    
+    .iconos-pagos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .iconomp {
+        max-width: 100px;
+    }
+
+    .iconotrasnf {
+        max-width: 100px;
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+}
+
 
 
 
