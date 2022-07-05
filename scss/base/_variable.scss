@@ -1,11 +1,7 @@
-//**variables header**//
-
 $color-titulos: white; 
 $color-bg-titulos: black;
 $font-titulos: 'Arvo', serif ;
-
 $font-size-titulos: 3em;
-
 $font-size-small: 1em;
 
 
@@ -23,8 +19,6 @@ $font-size-small: 1em;
     font-size: 2em ;
     background-color: grey;   
 }
-
-//**especialidades style **//
 
 @mixin titulos-section {
     text-align: center;

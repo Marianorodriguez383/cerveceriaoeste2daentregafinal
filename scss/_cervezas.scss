@@ -1,7 +1,7 @@
 @import "base/variable";
 
 .cont-h3 {
-    @include titulos-section
+    @include titulos-section;
 
 }
 
@@ -22,7 +22,6 @@
 ul {
     li {
         background-color: grey;
-        /*background-image: linear-gradient(to left, black , grey);*/
         margin-bottom: 2%;
         
     }
