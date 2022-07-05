@@ -1,15 +1,12 @@
-@import "base/variable";
+@import "./base/variable";
 
 main {
     font-family: $font-titulos;
     
 }
-
 .conth3 {
     @include titulos-section;
 }
-
-
 h3 {
     padding-top: 10%;
     padding-bottom: 5%;
@@ -18,7 +15,6 @@ h3 {
     font-size: 60px;
     
 }
-
 @media screen and (max-width: 576px) {
     
     .iconos-pagos {
