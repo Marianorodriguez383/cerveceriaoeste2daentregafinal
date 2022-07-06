@@ -1,0 +1,128 @@
+header {
+  background-image: url(../../images/cuatrovasos.avif);
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  padding-bottom: 30%; }
+
+h1 {
+  color: white;
+  margin-top: 15%;
+  background-color: black;
+  font-family: "Arvo", serif;
+  font-size: 3em;
+  padding-top: 2%;
+  padding-bottom: 1em; }
+
+.header .nav-principal .conteiner-titulo-nav .titulo-nav {
+  font-size: 2em;
+  color: white; }
+
+.boton-vermas {
+  font-size: 2em;
+  background-color: grey; }
+
+.navbar {
+  justify-content: space-evenly; }
+
+.nav-principal {
+  background-color: grey;
+  padding: 0; }
+
+.logo-cdo {
+  max-width: 90px !important; }
+
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 1em;
+    margin-top: 85%; }
+  .logo-cdo {
+    max-width: 40px !important; }
+  .boton-vermas {
+    font-size: 1em; }
+  .sub-t {
+    font-size: 1em;
+    color: black; }
+  .nav-pag {
+    margin-bottom: 30%; }
+  .navbar-nav {
+    margin-top: 3%; } }
+
+main {
+  font-family: "Arvo", serif; }
+
+.conth3 {
+  text-align: center;
+  background-image: linear-gradient(to top, black, grey);
+  margin-bottom: 8%; }
+
+h3 {
+  padding-top: 10%;
+  padding-bottom: 5%;
+  color: green;
+  font-weight: 900;
+  font-size: 60px; }
+
+@media screen and (max-width: 576px) {
+  .iconos-pagos {
+    display: flex;
+    flex-direction: column; }
+  .iconomp {
+    max-width: 100px; }
+  .iconotrasnf {
+    max-width: 100px;
+    margin-top: 20%;
+    margin-bottom: 20%; }
+  h3 {
+    font-size: 20px; } }
+
+.cont-h3 {
+  text-align: center;
+  background-image: linear-gradient(to top, black, grey);
+  margin-bottom: 8%; }
+
+.titulo-cerveza {
+  margin-top: 10%; }
+
+.parrafo-cerveza .div-parr-cer .parrafo-cerv {
+  margin-bottom: 5%;
+  text-decoration: underline; }
+
+ul li {
+  background-color: grey;
+  margin-bottom: 2%; }
+
+.img-cerveza {
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+.foto-copa {
+  max-width: 100%; }
+
+.titulo-postre {
+  text-align: center;
+  background-image: linear-gradient(to top, black, grey);
+  margin-bottom: 8%; }
+
+.titulo-contacto {
+  text-align: center;
+  background-image: linear-gradient(to top, black, grey);
+  margin-bottom: 8%;
+  margin-top: 5%; }
+
+.divcontacto, .classfooter {
+  text-decoration: underline;
+  background-color: #444242;
+  color: azure;
+  font-size: 1.5em; }
+
+.fotos-contac .foto-pizza {
+  max-width: 100%; }
+
+.div-redes {
+  padding-bottom: 10%; }
+
+.classfooter {
+  padding-bottom: 10%; }
