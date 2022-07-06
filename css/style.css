@@ -61,7 +61,7 @@ main {
 h3 {
   padding-top: 10%;
   padding-bottom: 5%;
-  color: beige;
+  color: red;
   font-weight: 900;
   font-size: 60px; }
 
@@ -101,6 +101,11 @@ ul li {
 .foto-copa {
   max-width: 100%; }
 
+.titulo-postre {
+  text-align: center;
+  background-image: linear-gradient(to top, black, grey);
+  margin-bottom: 8%; }
+
 .titulo-contacto {
   text-align: center;
   background-image: linear-gradient(to top, black, grey);
@@ -118,11 +123,6 @@ ul li {
 
 .div-redes {
   padding-bottom: 10%; }
-
-.titulo-postre {
-  text-align: center;
-  background-image: linear-gradient(to top, black, grey);
-  margin-bottom: 8%; }
 
 .classfooter {
   padding-bottom: 10%; }

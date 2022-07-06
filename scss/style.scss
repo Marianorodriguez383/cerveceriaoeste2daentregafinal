@@ -1,8 +1,9 @@
-@import "./base/variable";
-@import "header";
-@import "especialidades";
-@import "cervezas";
-@import "contacto";
-@import "postres";
+//variables 
 
-@import "footer";
+@import "../scss/base/variable";
+@import "../scss/base/header";
+@import "../scss/base/especialidades";
+@import "../scss/base/cervezas";
+@import "../scss/base/postres";
+@import "../scss/base/contacto";
+@import "../scss/base/footer";
