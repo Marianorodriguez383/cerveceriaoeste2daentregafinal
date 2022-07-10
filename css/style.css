@@ -1,3 +1,19 @@
+html, body {
+  overflow-x: hidden;
+  color: black;
+  height: 100%;
+  width: 101%;
+  margin: 0px;
+  padding: 0px; }
+
+html, body {
+  overflow-x: hidden;
+  color: black;
+  height: 100%;
+  width: 101%;
+  margin: 0px;
+  padding: 0px; }
+
 header {
   background-image: url(../images/cuatrovasos.avif);
   max-width: 100%;
@@ -50,18 +66,26 @@ h1 {
   .navbar-nav {
     margin-top: 3%; } }
 
+html, body {
+  overflow-x: hidden;
+  color: black;
+  height: 100%;
+  width: 101%;
+  margin: 0px;
+  padding: 0px; }
+
 main {
   font-family: "Arvo", serif; }
 
 .conth3 {
   text-align: center;
-  background-image: linear-gradient(to top, black, grey);
+  background-image: linear-gradient(to bottom, #2C3246, #9195a0, #FFFFFF);
   margin-bottom: 8%; }
 
 h3 {
   padding-top: 10%;
   padding-bottom: 5%;
-  color: green;
+  color: #1b8ce0;
   font-weight: 900;
   font-size: 60px; }
 
@@ -78,9 +102,17 @@ h3 {
   h3 {
     font-size: 20px; } }
 
+html, body {
+  overflow-x: hidden;
+  color: black;
+  height: 100%;
+  width: 101%;
+  margin: 0px;
+  padding: 0px; }
+
 .cont-h3 {
   text-align: center;
-  background-image: linear-gradient(to top, black, grey);
+  background-image: linear-gradient(to bottom, #2C3246, #9195a0, #FFFFFF);
   margin-bottom: 8%; }
 
 .titulo-cerveza {
@@ -91,8 +123,7 @@ h3 {
   text-decoration: underline; }
 
 ul li {
-  background-color: grey;
-  margin-bottom: 2%; }
+  margin-bottom: 6%; }
 
 .img-cerveza {
   padding-top: 5%;
@@ -101,14 +132,41 @@ ul li {
 .foto-copa {
   max-width: 100%; }
 
+.bg-images {
+  background-image: url(../images/degustacion.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+.contenedor-cervezas {
+  margin-bottom: 10%; }
+
+html, body {
+  overflow-x: hidden;
+  color: black;
+  height: 100%;
+  width: 101%;
+  margin: 0px;
+  padding: 0px; }
+
 .titulo-postre {
   text-align: center;
-  background-image: linear-gradient(to top, black, grey);
+  background-image: linear-gradient(to bottom, #2C3246, #9195a0, #FFFFFF);
   margin-bottom: 8%; }
+
+html, body {
+  overflow-x: hidden;
+  color: black;
+  height: 100%;
+  width: 101%;
+  margin: 0px;
+  padding: 0px; }
 
 .titulo-contacto {
   text-align: center;
-  background-image: linear-gradient(to top, black, grey);
+  background-image: linear-gradient(to bottom, #2C3246, #9195a0, #FFFFFF);
   margin-bottom: 8%;
   margin-top: 5%; }
 
@@ -123,6 +181,14 @@ ul li {
 
 .div-redes {
   padding-bottom: 10%; }
+
+html, body {
+  overflow-x: hidden;
+  color: black;
+  height: 100%;
+  width: 101%;
+  margin: 0px;
+  padding: 0px; }
 
 .classfooter {
   padding-bottom: 10%; }

@@ -1,5 +1,6 @@
 @import "variable";
 
+
 .cont-h3 {
     @include titulos-section;
 
@@ -8,6 +9,9 @@
 .titulo-cerveza {
     margin-top: 10%;
 }
+
+
+
 
 .parrafo-cerveza {
     .div-parr-cer {
@@ -20,9 +24,10 @@
 
 
 ul {
+    
     li {
-        background-color: grey;
-        margin-bottom: 2%;
+        
+        margin-bottom: 6%;
         
     }
 }
@@ -34,4 +39,17 @@ ul {
 
 .foto-copa {
     max-width: 100%;
+}
+
+.bg-images {
+    background-image: url(../images/degustacion.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.contenedor-cervezas {
+    margin-bottom: 10%;
 }
