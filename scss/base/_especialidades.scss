@@ -2,7 +2,7 @@
 
 main {
     font-family: $font-titulos;
-    background-image: url(../../images/marcascervezas.avif);
+    background-image: url(../images/marcascervezas.avif);
 }
 .conth3 {
     @include titulos-section;
