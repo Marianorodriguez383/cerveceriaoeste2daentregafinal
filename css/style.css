@@ -189,7 +189,7 @@ html, body {
   margin-bottom: 8%;
   margin-top: 5%; }
 
-.divcontacto, .classfooter {
+.divcontacto {
   text-decoration: underline;
   background-image: url(../images/canillas.jpg);
   color: azure;
@@ -207,4 +207,7 @@ html, body {
   padding: 0px; }
 
 .classfooter {
-  padding-bottom: 10%; }
+  background-color: black; }
+
+.foot {
+  padding-top: 5%; }
