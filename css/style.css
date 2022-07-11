@@ -76,7 +76,7 @@ html, body {
 
 main {
   font-family: "Arvo", serif;
-  background-image: url(../images/marcascervezas.avif); }
+  background-image: url(../images/marcascervezas.avif) !important; }
 
 .conth3 {
   text-align: center;
