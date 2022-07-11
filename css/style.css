@@ -15,7 +15,7 @@ html, body {
   padding: 0px; }
 
 header {
-  background-image: url(../images/cuatrovasos.avif);
+  background-image: url(../images/cuatrovasos.jpg);
   max-width: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -76,7 +76,7 @@ html, body {
 
 main {
   font-family: "Arvo", serif;
-  background-image: url(../images/marcascervezas.avif) !important; }
+  background-image: url(../images/marcascervezas.jpg) !important; }
 
 .conth3 {
   text-align: center;
