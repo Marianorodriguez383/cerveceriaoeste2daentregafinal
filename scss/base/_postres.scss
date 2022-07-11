@@ -4,3 +4,23 @@
     @include titulos-section;
     
 }
+
+.parrafo-postre {
+    font-size: x-large;
+}
+
+
+
+@media screen and (max-width: 576px) {
+   .parrafo-postre {
+    font-size: medium;
+   }
+}
+
+@media screen and (max-width: 768px) {
+    .parrafo-postre {
+        font-size: larger;
+    }
+       
+    
+}

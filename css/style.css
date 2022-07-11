@@ -164,6 +164,17 @@ html, body {
   background-image: linear-gradient(to bottom, #2C3246, #9195a0, #FFFFFF);
   margin-bottom: 8%; }
 
+.parrafo-postre {
+  font-size: x-large; }
+
+@media screen and (max-width: 576px) {
+  .parrafo-postre {
+    font-size: medium; } }
+
+@media screen and (max-width: 768px) {
+  .parrafo-postre {
+    font-size: larger; } }
+
 html, body {
   overflow-x: hidden;
   color: black;
