@@ -75,7 +75,8 @@ html, body {
   padding: 0px; }
 
 main {
-  font-family: "Arvo", serif; }
+  font-family: "Arvo", serif;
+  background-image: url(../../images/marcascervezas.avif); }
 
 .conth3 {
   text-align: center;
@@ -89,6 +90,9 @@ h3 {
   font-weight: 900;
   font-size: 60px; }
 
+.imagenuno-esp {
+  margin-bottom: 5%; }
+
 @media screen and (max-width: 576px) {
   .iconos-pagos {
     display: flex;
@@ -100,7 +104,11 @@ h3 {
     margin-top: 20%;
     margin-bottom: 20%; }
   h3 {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .imagenuno-esp {
+    padding-bottom: 15%; }
+  .card-text {
+    font-size: small; } }
 
 html, body {
   overflow-x: hidden;

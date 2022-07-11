@@ -2,7 +2,7 @@
 
 main {
     font-family: $font-titulos;
-    
+    background-image: url(../../images/marcascervezas.avif);
 }
 .conth3 {
     @include titulos-section;
@@ -16,6 +16,9 @@ h3 {
     
 }
 
+.imagenuno-esp {
+    margin-bottom: 5%;
+}
 
 @media screen and (max-width: 576px) {
     
@@ -37,8 +40,12 @@ h3 {
     h3 {
         font-size: 20px;
     }
-
-
+    .imagenuno-esp {
+        padding-bottom: 15%;
+    }
+    .card-text {
+        font-size: small;
+    }
 }
 
 
