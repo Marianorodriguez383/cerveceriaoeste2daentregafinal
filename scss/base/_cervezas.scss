@@ -1,6 +1,6 @@
 @import "variable";
 
-
+/*estilos cervezas */
 .cont-h3 {
     @include titulos-section;
 
@@ -42,14 +42,18 @@ ul {
 }
 
 .bg-images {
-    background-image: url(../images/degustacion.avif);
+    background-image: url(../images/degustacion.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 5%;
     padding-bottom: 5%;
+    
 }
 
 .contenedor-cervezas {
     margin-bottom: 10%;
 }
+
+
+/*fin estilos cervezas*/

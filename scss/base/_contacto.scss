@@ -1,5 +1,7 @@
 @import "variable";
 
+
+/*estilos seccion contactos */
 .titulo-contacto {
     @include titulos-section;
     margin-top: 5%;
@@ -18,3 +20,5 @@
 .div-redes {
     padding-bottom: 0%;
 }
+
+/*fin estilos seccion contactos*/

@@ -1,5 +1,6 @@
 @import "variable";
 
+/*estilos header*/
 header {
     background-image: url(../images/cuatrovasos.png);
     @include bg-header-principal;
@@ -47,9 +48,9 @@ h1 {
 .logo-cdo {
     max-width: 90px !important;
 }
+/**fin estilos header**/
 
-
-
+/** estilos header max width 576px **/
 @media screen and (max-width: 576px) {
     h1 {
         font-size: $font-size-small;
@@ -77,3 +78,4 @@ h1 {
     }
     
 }
+/** fin estilos max width 576px **/
