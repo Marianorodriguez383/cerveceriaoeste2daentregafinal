@@ -15,7 +15,7 @@ html, body {
   padding: 0px; }
 
 header {
-  background-image: url(../images/cuatrovasos.jpg);
+  background-image: url(../images/cuatrovasos.png);
   max-width: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -191,7 +191,7 @@ html, body {
 
 .divcontacto {
   text-decoration: underline;
-  background-image: url(../images/canillas.jpg);
+  background-image: url(../images/canillas.png);
   color: azure;
   font-size: 1.5em; }
 

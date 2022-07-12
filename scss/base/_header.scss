@@ -1,10 +1,10 @@
 @import "variable";
 
 header {
-    background-image: url(../images/cuatrovasos.jpg);
+    background-image: url(../images/cuatrovasos.png);
     @include bg-header-principal;
 
-}
+} 
 
 h1 {
     color: $color-titulos;
