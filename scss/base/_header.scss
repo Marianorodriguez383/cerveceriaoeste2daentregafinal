@@ -1,7 +1,7 @@
 @import "variable";
 
 /*estilos header*/
-header {
+.principal-header {
     background-image: url(../images/cuatrovasos.png);
     @include bg-header-principal;
 
@@ -18,7 +18,7 @@ h1 {
 }
 
 
-.header {
+.principal-header {
     .nav-principal {
         .conteiner-titulo-nav {
             .titulo-nav {

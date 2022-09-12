@@ -15,7 +15,7 @@ html, body {
   padding: 0px; }
 
 /*estilos header*/
-header {
+.principal-header {
   background-image: url(../images/cuatrovasos.png);
   max-width: 100%;
   background-repeat: no-repeat;
@@ -33,7 +33,7 @@ h1 {
   padding-top: 2%;
   padding-bottom: 1em; }
 
-.header .nav-principal .conteiner-titulo-nav .titulo-nav {
+.principal-header .nav-principal .conteiner-titulo-nav .titulo-nav {
   font-size: 2em;
   color: white; }
 
@@ -223,3 +223,43 @@ html, body {
   padding-top: 5%; }
 
 /*fin estilos footer*/
+body {
+  background-color: #414141; }
+
+header, .alert {
+  z-index: 100; }
+
+.description {
+  height: 25px;
+  overflow: hidden;
+  transition: height .3s ease-in .3s; }
+
+.description:hover {
+  height: 80px; }
+
+.carrito {
+  min-height: 80vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%; }
+
+.table__productos {
+  display: flex; }
+
+.table__productos > img {
+  width: 9rem;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-right: 20px; }
+
+.table__cantidad > input {
+  width: 40px;
+  border: none;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-bottom: 20px; }
+
+.hide, .remove {
+  display: none; }
