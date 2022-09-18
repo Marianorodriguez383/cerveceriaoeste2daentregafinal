@@ -1,11 +1,28 @@
 const Clickbutton = document.querySelectorAll('.button')
 const tbody = document.querySelector('.tbody')
-let carrito = []
+let carrito = [];
+let productos = [];
 
-Clickbutton.forEach(btn => {
-  btn.addEventListener('click', addToCarritoItem)
-})
 
+
+function obtenerProductos() {
+  fetch('http://127.0.0.1:5500/data/productos.json')
+  .then((response)=> response.json())
+  .then ((productosData)=>{
+    agregarProductos(productosData);  
+  })
+}
+
+function agregarProductos(productosData){
+  for (let producto of productosData) {
+    let objProducto = new Producto(producto.title, producto.precio, producto.img, producto.descripcion, producto.cantidad);
+  
+    productos.push(objProducto);
+    crearProducto (objProducto);
+  }
+}
+
+  
 
 function addToCarritoItem(e){
   const button = e.target
@@ -132,8 +149,71 @@ function addLocalStorage(){
 
 window.onload = function(){
   const storage = JSON.parse(localStorage.getItem('carrito'));
+  obtenerProductos(); 
   if(storage){
     carrito = storage;
     renderCarrito()
   }
 }
+
+
+function crearProducto(producto){
+  let elemento = document.createElement("div");
+  
+
+  let divFlex = document.createElement("div");
+  divFlex.className = 'col d-flex justify-content-center mb-4';
+  elemento.appendChild(divFlex);
+  let card = document.createElement("div");
+  card.className = "card shadow mb-1";
+  card.style = "width: 20rem;";
+
+  divFlex.appendChild(card);
+
+
+  let cardTitulo = document.createElement("h5");
+  cardTitulo.className = "card-title pt-2 text-center";
+  cardTitulo.innerText = producto.title;
+  card.appendChild(cardTitulo);
+
+  let cardImg = document.createElement ("img");
+    cardImg.className = "card-img-top";
+    cardImg.src = "./images/"+producto.img;
+
+  card.appendChild(cardImg);
+
+  let cardBody = document.createElement("div");
+  cardBody.className = "card-body";
+  card.appendChild(cardBody);
+
+  let parrafo = document.createElement ("p");
+  parrafo.className = "card-text description text-dark";
+  parrafo.innerText = producto.descripcion;
+  cardBody.appendChild(parrafo);
+
+  let h5Precio = document.createElement ("h5");
+  h5Precio.className = "text primary";
+  h5Precio.innerText = "Precio:";
+  cardBody.appendChild(h5Precio);
+
+  let spancard = document.createElement ("span");
+  spancard.className = "precio";
+  spancard.innerText = producto.precio;
+  cardBody.appendChild(spancard);
+
+  let agregarprod = document.createElement ("div");
+  agregarprod.className = "d-grid gap-2";
+  cardBody.appendChild(agregarprod);
+
+  let boton = document.createElement ("button");
+  boton.className = "btn btn-primary button";
+  boton.innerText = "Añadir al Carrito";
+  boton.addEventListener('click', addToCarritoItem);
+  agregarprod.appendChild(boton);
+
+
+  let divproductos = document.getElementById("contenedorproduc");
+  divproductos.appendChild(elemento);
+}
+
+

@@ -1,0 +1,26 @@
+[{
+  "title": "Pizza",
+  "precio": 12,
+  "img": "pizza4.png",
+  "descripcion": "Nuestra Burguer - doble carne del corte que hace referencia su nombre, doble cheddar, panceta",
+  "cantidad": 1
+},{
+  "title": "Doble Burga",
+  "precio": 700,
+  "img": "dobleburguer.png", 
+  "descripcion": "Nuestra Burguer - doble carne del corte que hace referencia su nombre, doble cheddar, panceta",
+  "cantidad": 1
+},{
+  "title": "Sanguche del mal",
+  "precio": 800,
+  "img": "sanguche.png", 
+  "descripcion": "Sanguche de chivito patagonico con queso dambo y ensalada de papas fritas",
+  "cantidad": 1
+},{
+  "title": "perro",
+  "precio": 8,
+  "img": "sanguche.png", 
+  "descripcion": "Sanguche de chivito patagonico con queso dambo y ensalada de papas fritas",
+  "cantidad": 1
+}
+]
