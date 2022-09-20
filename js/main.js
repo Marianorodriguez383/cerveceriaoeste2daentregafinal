@@ -16,7 +16,6 @@ function obtenerProductos() {
 function agregarProductos(productosData){
   for (let producto of productosData) {
     let objProducto = new Producto(producto.title, producto.precio, producto.img, producto.descripcion, producto.cantidad);
-  
     productos.push(objProducto);
     crearProducto (objProducto);
   }
@@ -43,13 +42,14 @@ function addToCarritoItem(e){
 
 
 function addItemCarrito(newItem){
-
-  const alert = document.querySelector('.alert')
-
-  setTimeout( function(){
-    alert.classList.add('hide')
-  }, 2000)
-    alert.classList.remove('hide')
+  
+  Toastify({
+    text: "Producto añadido al carrito",
+    duration: 5000,
+    gravity: 'top',
+    position: 'center',
+  }).showToast();
+  
 
   const InputElemnto = tbody.getElementsByClassName('input__elemento')
   for(let i =0; i < carrito.length ; i++){
@@ -84,9 +84,7 @@ function renderCarrito(){
             <td class="table__cantidad">
               <input type="number" min="1" value=${item.cantidad} class="input__elemento">
               <button class="delete btn btn-danger">x</button>
-            </td>
-    
-    `
+            </td>`
     tr.innerHTML = Content;
     tbody.append(tr)
 
@@ -118,14 +116,17 @@ function removeItemCarrito(e){
       carrito.splice(i, 1)
     }
   }
+  Toastify({
+    text: "Producto removido del carrito",
+    duration: 5000,
+    gravity: 'top',
+    position: 'center',
+    style: {
+      background: '#FF0000',
 
-  const alert = document.querySelector('.remove')
-
-  setTimeout( function(){
-    alert.classList.add('remove')
-  }, 2000)
-    alert.classList.remove('remove')
-
+    }
+  }).showToast();
+  
   tr.remove()
   CarritoTotal()
 }
@@ -162,18 +163,20 @@ function crearProducto(producto){
   
 
   let divFlex = document.createElement("div");
-  divFlex.className = 'col d-flex justify-content-center mb-4';
+    divFlex.className = 'col d-flex justify-content-center mb-4';
   elemento.appendChild(divFlex);
+  
   let card = document.createElement("div");
-  card.className = "card shadow mb-1";
-  card.style = "width: 20rem;";
+    card.className = "card shadow mb-1";
+    card.style = "width: 20rem;";
 
   divFlex.appendChild(card);
 
 
   let cardTitulo = document.createElement("h5");
-  cardTitulo.className = "card-title pt-2 text-center";
-  cardTitulo.innerText = producto.title;
+    cardTitulo.className = "card-title pt-2 text-center";
+    cardTitulo.innerText = producto.title;
+
   card.appendChild(cardTitulo);
 
   let cardImg = document.createElement ("img");
@@ -183,32 +186,33 @@ function crearProducto(producto){
   card.appendChild(cardImg);
 
   let cardBody = document.createElement("div");
-  cardBody.className = "card-body";
+    cardBody.className = "card-body";
+  
   card.appendChild(cardBody);
 
   let parrafo = document.createElement ("p");
-  parrafo.className = "card-text description text-dark";
-  parrafo.innerText = producto.descripcion;
+    parrafo.className = "card-text description text-dark";
+    parrafo.innerText = producto.descripcion;
   cardBody.appendChild(parrafo);
 
   let h5Precio = document.createElement ("h5");
-  h5Precio.className = "text primary";
-  h5Precio.innerText = "Precio:";
+    h5Precio.className = "text primary";
+    h5Precio.innerText = "Precio:";
   cardBody.appendChild(h5Precio);
 
   let spancard = document.createElement ("span");
-  spancard.className = "precio";
-  spancard.innerText = producto.precio;
+    spancard.className = "precio";
+    spancard.innerText = "$"+producto.precio;
   cardBody.appendChild(spancard);
 
   let agregarprod = document.createElement ("div");
-  agregarprod.className = "d-grid gap-2";
+    agregarprod.className = "d-grid gap-2";
   cardBody.appendChild(agregarprod);
 
   let boton = document.createElement ("button");
-  boton.className = "btn btn-primary button";
-  boton.innerText = "Añadir al Carrito";
-  boton.addEventListener('click', addToCarritoItem);
+    boton.className = "btn btn-primary button";
+    boton.innerText = "Añadir al Carrito";
+    boton.addEventListener('click', addToCarritoItem);
   agregarprod.appendChild(boton);
 
 

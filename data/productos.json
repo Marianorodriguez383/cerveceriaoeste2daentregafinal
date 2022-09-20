@@ -1,8 +1,8 @@
 [{
   "title": "Pizza",
-  "precio": 12,
+  "precio": 1600,
   "img": "pizza4.png",
-  "descripcion": "Nuestra Burguer - doble carne del corte que hace referencia su nombre, doble cheddar, panceta",
+  "descripcion": "Delicias amazadas por los mejores maestros pizzeros de la zona",
   "cantidad": 1
 },{
   "title": "Doble Burga",
@@ -17,10 +17,34 @@
   "descripcion": "Sanguche de chivito patagonico con queso dambo y ensalada de papas fritas",
   "cantidad": 1
 },{
-  "title": "perro",
-  "precio": 8,
+  "title": "Combo Cerveza Refrescante",
+  "precio": 4000,
+  "img": "vassbirr.jpg", 
+  "descripcion": "Combo cerveza + vasos",
+  "cantidad": 1
+},{
+  "title": "Peperonccino Napoletano",
+  "precio": 1200,
+  "img": "pizza4.png", 
+  "descripcion": "Mas tana que el padrino",
+  "cantidad": 1
+},{
+  "title": "Degustacion Artesanal",
+  "precio": 2500,
+  "img": "vassbirr.jpg", 
+  "descripcion": "Tabla + Vasos + 6 latas (a eleccion)",
+  "cantidad": 1
+},{
+  "title": "El oeste",
+  "precio": 1000,
+  "img": "dobleburguer.png", 
+  "descripcion": "Combo doble carne doble queso + doble porcion de papas",
+  "cantidad": 1
+},{
+  "title": "Lomito para el crimen",
+  "precio": 1400,
   "img": "sanguche.png", 
-  "descripcion": "Sanguche de chivito patagonico con queso dambo y ensalada de papas fritas",
+  "descripcion": "Pan ciabatta, lomito a la cerveza, queso a elección",
   "cantidad": 1
 }
 ]
