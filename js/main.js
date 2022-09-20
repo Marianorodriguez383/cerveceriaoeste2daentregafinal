@@ -6,7 +6,7 @@ let productos = [];
 
 
 function obtenerProductos() {
-  fetch('http://127.0.0.1:5500/data/productos.json')
+  fetch('./data/productos.json')
   .then((response)=> response.json())
   .then ((productosData)=>{
     agregarProductos(productosData);  
@@ -122,7 +122,6 @@ function removeItemCarrito(e){
     position: 'center',
     style: {
       background: '#FF0000',
-
     }
   }).showToast();
   
